@@ -56,7 +56,7 @@ public class ProxyTest {
     public  void test1() {
         createPen createPen = (createPen) CreteProxyFactory.getNewInstance(new A());
         createPen.createA();
-        System.out.println("这是第二版本！");
+        System.out.println("这是第san版本！");
 
     }
 }
